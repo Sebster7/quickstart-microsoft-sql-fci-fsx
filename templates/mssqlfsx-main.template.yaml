@@ -176,15 +176,49 @@ Parameters:
     Type: String
   ADServer1InstanceType:
     AllowedValues:
+      - t3a.2xlarge
+      - t3a.xlarge
+      - t3a.large
+      - t3a.medium
+      - t3a.small
+      - t3.2xlarge
+      - t3.xlarge
+      - t3.large
+      - t3.medium
+      - t3.small
       - t2.large
-      - m4.large
-      - m4.xlarge
-      - m4.2xlarge
-      - m4.4xlarge
-      - m5.large
-      - m5.xlarge
-      - m5.2xlarge
+      - t2.medium
+      - t2.small
+      - m6i.8xlarge
+      - m6i.4xlarge
+      - m6i.2xlarge
+      - m6i.xlarge
+      - m6i.large
+      - m5a.8xlarge
+      - m5a.4xlarge   
+      - m5a.2xlarge
+      - m5a.xlarge
+      - m5a.large
+      - m5.8xlarge
       - m5.4xlarge
+      - m5.2xlarge
+      - m5.xlarge
+      - m5.large
+      - r5a.xlarge
+      - r5a.2xlarge
+      - r5a.4xlarge
+      - r5a.8xlarge
+      - r5.large
+      - r5.xlarge
+      - r5.2xlarge
+      - r5.4xlarge
+      - r5.8xlarge
+      - r4.xlarge
+      - r4.2xlarge
+      - r4.4xlarge
+      - r4.8xlarge
+      - z1d.large
+      - z1d.xlarge  
     Default: m5.xlarge
     Description: Amazon EC2 instance type for the first Active Directory instance, located in Availability Zone 1.
     Type: String
@@ -203,15 +237,49 @@ Parameters:
     Type: String
   ADServer2InstanceType:
     AllowedValues:
+      - t3a.2xlarge
+      - t3a.xlarge
+      - t3a.large
+      - t3a.medium
+      - t3a.small
+      - t3.2xlarge
+      - t3.xlarge
+      - t3.large
+      - t3.medium
+      - t3.small
       - t2.large
-      - m4.large
-      - m4.xlarge
-      - m4.2xlarge
-      - m4.4xlarge
-      - m5.large
-      - m5.xlarge
-      - m5.2xlarge
+      - t2.medium
+      - t2.small
+      - m6i.8xlarge
+      - m6i.4xlarge
+      - m6i.2xlarge
+      - m6i.xlarge
+      - m6i.large
+      - m5a.8xlarge
+      - m5a.4xlarge   
+      - m5a.2xlarge
+      - m5a.xlarge
+      - m5a.large
+      - m5.8xlarge
       - m5.4xlarge
+      - m5.2xlarge
+      - m5.xlarge
+      - m5.large
+      - r5a.xlarge
+      - r5a.2xlarge
+      - r5a.4xlarge
+      - r5a.8xlarge
+      - r5.large
+      - r5.xlarge
+      - r5.2xlarge
+      - r5.4xlarge
+      - r5.8xlarge
+      - r4.xlarge
+      - r4.2xlarge
+      - r4.4xlarge
+      - r4.8xlarge
+      - z1d.large
+      - z1d.xlarge  
     Default: m5.xlarge
     Description: Amazon EC2 instance type for the second Active Directory instance, located in Availability Zone 2.
     Type: String
@@ -361,13 +429,49 @@ Parameters:
     Type: String
   RDGWInstanceType:
     AllowedValues:
-      - t2.small
-      - t2.medium
+      - t3a.2xlarge
+      - t3a.xlarge
+      - t3a.large
+      - t3a.medium
+      - t3a.small
+      - t3.2xlarge
+      - t3.xlarge
+      - t3.large
+      - t3.medium
+      - t3.small
       - t2.large
-      - m5.large
-      - m5.xlarge
-      - m5.2xlarge
+      - t2.medium
+      - t2.small
+      - m6i.8xlarge
+      - m6i.4xlarge
+      - m6i.2xlarge
+      - m6i.xlarge
+      - m6i.large
+      - m5a.8xlarge
+      - m5a.4xlarge   
+      - m5a.2xlarge
+      - m5a.xlarge
+      - m5a.large
+      - m5.8xlarge
       - m5.4xlarge
+      - m5.2xlarge
+      - m5.xlarge
+      - m5.large
+      - r5a.xlarge
+      - r5a.2xlarge
+      - r5a.4xlarge
+      - r5a.8xlarge
+      - r5.large
+      - r5.xlarge
+      - r5.2xlarge
+      - r5.4xlarge
+      - r5.8xlarge
+      - r4.xlarge
+      - r4.2xlarge
+      - r4.4xlarge
+      - r4.8xlarge
+      - z1d.large
+      - z1d.xlarge    
     Default: t2.large
     Description: Amazon EC2 instance type for the Remote Desktop Gateway instances.
     Type: String
@@ -427,7 +531,28 @@ Parameters:
   WorkloadInstanceType:
     AllowedValues:
     - t3a.2xlarge
+    - t3a.xlarge
+    - t3a.large
+    - t3a.medium
+    - t3a.small
     - t3.2xlarge
+    - t3.xlarge
+    - t3.large
+    - t3.medium
+    - t3.small
+    - m6i.8xlarge
+    - m6i.2xlarge
+    - m6i.xlarge
+    - m6i.large
+    - m5a.8xlarge
+    - m5a.4xlarge   
+    - m5a.2xlarge
+    - m5a.xlarge
+    - m5a.large
+    - m5.8xlarge
+    - m5.2xlarge
+    - m5.xlarge
+    - m5.large
     - r5a.xlarge
     - r5a.2xlarge
     - r5a.4xlarge
