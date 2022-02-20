@@ -275,6 +275,8 @@ Parameters:
     AllowedValues:
     - Windows_Server-2019-English-Full-Base*
     - Windows_Server-2016-English-Full-Base*
+    - Windows_Server-2019-English-Full-SQL_2019_Standard-2022.02.10
+    - ami-055fccfa14a72b3f1
     ConstraintDescription: Must be one of the supported Windows versions.
     Default: Windows_Server-2019-English-Full-Base*
     Description: Select Windows version to run SQL Server.
